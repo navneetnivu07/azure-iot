@@ -10,13 +10,13 @@
 #define MESSAGE_MAX_LEN 256
 
 // Please input the SSID and password of WiFi
-const char* ssid     = "TP-LINK_DE40";
-const char* password = "password@1234";
+const char* ssid     = "";
+const char* password = "";
 
 /*String containing Hostname, Device Id & Device Key in the format:                         */
 /*  "HostName=<host_name>;DeviceId=<device_id>;SharedAccessKey=<device_key>"                */
 /*  "HostName=<host_name>;DeviceId=<device_id>;SharedAccessSignature=<device_sas_token>"    */
-static const char* connectionString = "HostName=VaniIOThub1.azure-devices.net;DeviceId=esp32_nivu_1;SharedAccessKey=u2mvkXlIZ/mKl5GR3iIgCFglKR/Vy40qLppqBc/pr0k=";
+static const char* connectionString = "HostName=VaniIOThub1.azure-devices.net;DeviceId=esp32_1;SharedAccessKey=u2mvkXlIZ/mKl5GR3iIgCFglKR/Vy40qLppqBc/pr0k=";
 
 const char *messageData = "{\"deviceId\":\"%s\", \"messageId\":%d, \"Temperature\":%f, \"Humidity\":%f}";
 
