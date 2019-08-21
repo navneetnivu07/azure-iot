@@ -6,8 +6,8 @@
 #include "Esp32MQTTClient.h"
 
 // Please input the SSID and password of WiFi
-const char* ssid     = "TP-LINK_DE40";
-const char* password = "password@1234";
+const char* ssid     = "";
+const char* password = "";
 
 /*String containing Hostname, Device Id & Device Key in the format:                         */
 /*  "HostName=<host_name>;DeviceId=<device_id>;SharedAccessKey=<device_key>"                */
